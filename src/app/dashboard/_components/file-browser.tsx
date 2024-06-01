@@ -140,6 +140,7 @@ export function FileBrowser({
           </div>
         </TabsContent>
         <TabsContent value="table">
+          {/* @ts-ignore */}
           <DataTable columns={columns} data={modifiedFiles} />
         </TabsContent>
       </Tabs>
